@@ -1,0 +1,238 @@
+body
+{
+    margin-top: 70px;
+    padding: 0;
+    font-size: 150%;
+    line-height: 1.6;
+    font-family: 'Satisfy', cursive;
+}
+
+.navbar-default
+{
+    background: #fff;
+    border: 0;
+}
+
+.navbar-brand
+{
+    font-size: 20px;
+    color: #222 !important;
+    font-weight: bold;
+}
+
+#home h1
+{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.navbar-nav
+{
+    font-size: 16px;
+}
+
+#wrapper
+{
+    position: relative;
+    width: 100%;
+    min-height: 55vw;
+    overflow: hidden;
+}
+
+#home img
+{
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+}
+
+#specs img
+{
+    width: 95%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+#home .home-right
+{
+    margin-top: 150px;
+}
+
+#specs .specs-left
+{
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.layer
+{
+    position: absolute;
+    width: 100vw;
+    min-height: 55vw;
+    overflow: hidden;
+}
+
+.layer .content-wrap
+{
+    position: absolute;
+    width: 100vw;
+    min-height: 55vw;
+}
+
+.layer .content-body
+{
+    width: 25%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+.layer img
+{
+    position: absolute;
+    height:60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.layer h1
+{
+    font-size: 2em;
+}
+
+.bottom
+{
+    background: #222;
+    z-index: 1;
+}
+
+.bottom .content-body
+{
+    right: 5%;
+}
+
+.bottom h1
+{
+    color: #C0C0C0;
+}
+
+.top
+{
+    background: #eee;
+    color: #222;
+    z-index: 2;
+    width: 50vw;
+}
+
+.top .content-body
+{
+    left: 5%;
+    color: #222;
+}
+
+.top h1
+{
+    color: #4f5b66; 
+}
+
+.handle
+{
+    position: absolute;
+    height: 100%;
+    display: block;
+    background-color: #f6d9d5;
+    width: 5px;
+    top: 0;
+    left: 50%;
+    z-index: 3;
+}
+
+td, th
+{
+    border-color: #f6d9d5 !important;       
+}
+.skewed .handle
+{
+    top: 50%;
+    transform: rotate(30deg) translateY(-50%);
+    height: 200%;
+    transform-origin: top;
+}
+
+.skewed .top
+{
+    transform: skew(-30deg);
+    margin-left: -1000px;
+    width: calc(50vw + 1000px);
+}
+
+#about
+{
+    background: #eee;
+    padding: 0;
+}
+
+#about .container
+{
+    font-size: 20px;
+    padding: 100px;
+}
+
+.skewed .top .content-wrap
+{
+    transform: skew(30deg);
+    margin-left: 1000px;
+}
+
+#about .signature
+{
+    font-family: 'Homemade Apple', cursive;
+}
+
+@media(max-width:768px)
+{
+    body
+    {
+        font-size: 200%;
+    }
+
+    #wrapper
+    {
+        font-size: 55%;
+    }
+
+    #home .home-right
+    {
+        margin: 50px 25px 20px 25px;
+    }
+
+    #home
+    {
+        margin-bottom: 50px;
+    }
+    
+    #home .btn
+    {
+        margin-left: 25px;
+    }
+
+    #about .container
+    {
+        padding: 50px 25px;
+    }
+
+    #specs img
+    {
+        margin: 25px;
+    }
+
+    #specs .specs-left
+    {
+        margin: 50px 25px;
+    }
+
+}
